@@ -1,0 +1,321 @@
+@media screen and (min-width: 1500px) {
+}
+@media screen and (min-width: 992px) {
+#burgernav {
+	display: none;
+}
+header nav {
+	width: 100%;
+	float: none;
+	clear: both;
+	    margin-top: 45px;
+}
+header nav ul li {
+	float: left;
+	margin-right: 25px;
+}
+header nav ul li:nth-child(4) {
+	margin-right: 360px;
+}
+header nav ul li a {
+	text-transform: uppercase;
+	color: #666;
+	font-size: 14px;
+	font-weight: 900;
+	padding: 0 5px 10px 5px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+header nav ul li a:hover,header nav ul li.active a {
+	border-bottom: 5px #4b7bc5 solid;
+	text-decoration: none;
+}
+}
+@media screen and (max-width: 1700px) {
+
+}
+@media screen and (max-width: 1500px) {
+.banner:after {
+	bottom: -1px;
+}
+
+
+}
+@media screen and (max-width: 1366px) {
+.sub-text, .sub-head {
+	left: 95px !important;
+}
+
+.general-input, .haap-form textarea, .haap-form select, .add-comment textarea {
+    height: 40px;
+	line-height:40px;
+}
+}
+@media screen and (max-width: 1300px) {
+}
+@media screen and (max-width: 1199px) {
+header .company-name .name-en {
+	height: 12px;
+}
+header .company-name .name-ar {
+	height: 19px;
+}
+header .logo img {
+	height: 115px;
+}
+header nav ul li:nth-child(4) {
+	margin-right: 305px;
+}
+header nav ul li {
+	margin-right: 5px;
+}
+header nav {
+	margin-top: 20px;
+}
+header {
+	height: 105px;
+}
+.banner {
+	margin-top: 100px;
+}
+.about-section {
+	margin-top: 0;
+}
+.border-green {
+	right: -6px;
+}
+.about-right {
+	width: 50%;
+}
+.product-grid .grid .grid-cntent h3 {
+	font-size: 19px;
+	padding-bottom: 0px;
+	line-height: 23px;
+}
+.product-grid .grid .grid-cntent p {
+	line-height: 21px;
+	padding-bottom: 3px;
+}
+.product-grid .second-grid p {
+	line-height: 25px!important;
+	padding-bottom: 4px!important;
+}
+.contact-text {
+	padding: 40px 15px 108px 45px;
+}
+.our-team ul li {
+	width: 30%;
+	min-height: 180px;
+}
+.trading-right{
+    padding: 40px 0px 15px 50px;
+}
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 991px) {
+header {
+	height: auto !important;
+	position: inherit;
+}
+header .logo {
+	margin-left: 20px;
+	position: inherit;
+	left: 0px;
+	float: left;
+	width: auto;
+}
+header .logo img {
+	height: 95px;
+}
+.banner {
+	margin-top: 0px;
+}
+.company-name {
+	display: none;
+}
+.banner:after {
+	bottom: -2px;
+}
+.about-left h3 {
+	font-size: 24px;
+	left: 65px;
+	line-height: 28px;
+}
+.border-white {
+	left: 116px;
+}
+.about-info .info-blk h3 {
+	font-size: 25px;
+}
+.product-grid .grid {
+	width: 100%;
+}
+.owl-dots {
+	width: 100%;
+	text-align: center;
+	position: inherit;
+	top: 0;
+	left: 0;
+	margin-top: 15px;
+}
+.product-grid .grid .grid-img {
+	width: 35%;
+}
+.product-grid .grid .grid-cntent {
+	width: 65%;
+	min-height: 219px;
+}
+.footer-left img {
+	margin-right: 5px;
+}
+.footer-left a {
+	padding: 5px 5px 5px 0px;
+}
+.footer-right p a {
+	padding: 5px 0px;
+}
+.contact-text {
+	padding: 50px 15px 95px 45px;
+}
+.footer-menu {
+	clear: both;
+}
+.our-team ul li {
+	width: 47%;
+	min-height: 180px;
+}
+.general-input, .haap-form textarea, .haap-form select, .add-comment textarea {
+    width: 100%;
+}
+.trading-right {
+    padding: 20px 0px 10px 20px;
+}
+.trading-left:before, .trading-right:after {
+    width: calc(30% - 145px);
+    height: 357px;
+}
+}
+@media screen and (max-width: 767px) {
+.about-left, .about-right {
+	float: none;
+	width: 100%;
+	padding-top: 15px;
+}
+.border-green, .border-white {
+	display: none;
+}
+.about-left h3 {
+	left: 160px;
+}
+.product-grid .grid .grid-cntent {
+	width: 100%;
+	min-height: auto;
+}
+.product-grid .grid .grid-img {
+	width: 100%;
+}
+.career-left, .contact-right {
+	width: 100%;
+}
+.abt-left, .abt-right, .objective-left, .objective-right{
+	width: 100%;
+	float: none;
+}
+.abt-left {
+    padding-right:0px;
+}
+.objective-right {
+	padding-left:0px;
+}
+.trading-left,.trading-right {
+   padding-left: 15px;
+    width: 100%;
+}
+.trading-left:before,.trading-right:after{
+	display:none;
+}
+.banner-text {
+    width: auto;
+	margin-top: 15px;
+}
+.inner-banner {
+    height: 240px;
+}
+.about-middle {
+    margin-top: 10px;
+}
+.cntct-right {
+    border-left: 0;
+    padding-left: 0;
+}
+}
+@media screen and (max-width:568px) {
+.about-left h3 {
+	left: 0;
+	position: inherit;
+}
+.about-info .info-blk, .about-info .info-blk:last-child {
+	width: 100%;
+	padding-right: 0;
+}
+.sub-text {
+	width: auto !important;
+	font-size: 10px !important;
+	line-height: 15px !important;
+}
+.product-content {
+	width: 100%;
+}
+.theme-heading h3 {
+	font-size: 20px;
+	padding-left: 0px;
+}
+.theme-heading h5 {
+	padding-left: 0px;
+}
+.about-info .info-blk p {
+	margin-top: 15px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+.banner:after {
+	height: 42px;
+	background-size: contain;
+	bottom: -5px;
+}
+.our-team ul li {
+	width: 100%;
+	min-height: inherit;
+}
+.banner-text h3 {
+    font-size: 30px;
+}
+.banner-text p {
+    font-size: 17px;
+}
+}
+@media screen and (max-width:375px) {
+.footer-left, .footer-right {
+	width: 100%;
+}
+.footer-right {
+	float: left !important;
+	width: 100%;
+}
+.footer-social {
+	float: left;
+}
+.footer-right p {
+	float: left;
+	clear: both;
+}
+.about-info .info-blk h3 {
+	font-size: 20px;
+}
+.banner:after {
+	height: 30px;
+}
+}
